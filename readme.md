@@ -1,6 +1,6 @@
 # quill-video-extend-module
 
-## install
+## Install
 
 ```bash
 npm install quill-video-extend-module --save
@@ -8,6 +8,7 @@ npm install quill-video-extend-module --save
 
 ## Usage
 
+Vue template
 
 ```html
 <quill-editor 
@@ -16,6 +17,7 @@ npm install quill-video-extend-module --save
   :options="editorOption">
 </quill-editor>
 ```
+Basic Configuration
 
 ```js
 import { VideoExtend, QuillVideoWatch } from './quill-video-extend-module'
@@ -90,7 +92,7 @@ export default {
             }
           }
         }
-      },
+      }
     }
   }
 }
